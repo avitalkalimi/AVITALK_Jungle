@@ -1,0 +1,61 @@
+/* Global page styling */
+body {
+  font-family: 'Almarai', sans-serif;
+  background: linear-gradient(to bottom, #f4e1c1, #e0c394);
+  color: #3b2f2f;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Page title */
+h1 {
+  padding: 20px;
+  color: #5c3e0c;
+  font-size: 3em;
+  text-shadow: 1px 1px 2px #fff3d0;
+}
+
+/* Container for all animal items */
+.animal-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 30px;
+}
+
+/* Individual animal image */
+.animal {
+  width: 160px;
+  height: auto;
+  border: 3px solid #a87c4f;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+/* Zoom on hover */
+.animal:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+}
+
+/* Animal key label */
+.animal-label {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #5c3e0c;
+}
+
+/* Responsive: for mobile screens */
+@media (max-width: 600px) {
+  .animal {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+}
