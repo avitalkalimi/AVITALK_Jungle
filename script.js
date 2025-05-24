@@ -1,12 +1,12 @@
 // Array of 7 animals with name, image path, sound path, and number key
 const animals = [
   { name: "LION", img: "assets/images/LION.png", sound: "assets/sounds/lion.wav", key: "1" },
-  { name: "monkey", img: "assets/images/monkey.png", sound: "assets/sounds/monkey.wav", key: "2" },
+  { name: "monkey", img: "assets/images/MONKEY.png", sound: "assets/sounds/monkey.wav", key: "2" },
   { name: "elephant", img: "assets/images/elephant.png", sound: "assets/sounds/elephant.mp3", key: "3" },
-  { name: "frog", img: "assets/images/frog.png", sound: "assets/sounds/frog.mp3", key: "4" },
-  { name: "snake", img: "assets/images/snake.png", sound: "assets/sounds/snake.wav", key: "5" },
-  { name: "wolf", img: "assets/images/wolf.png", sound: "assets/sounds/wolf.wav", key: "6" },
-  { name: "rooster", img: "assets/images/rooster.png", sound: "assets/sounds/rooster.wav", key: "7" }
+  { name: "frog", img: "assets/images/FROG.png", sound: "assets/sounds/frog.mp3", key: "4" },
+  { name: "snake", img: "assets/images/SNAKE.png", sound: "assets/sounds/snake.wav", key: "5" },
+  { name: "wolf", img: "assets/images/WOLF.png", sound: "assets/sounds/wolf.wav", key: "6" },
+  { name: "rooster", img: "assets/images/ROOSTER.png", sound: "assets/sounds/rooster.wav", key: "7" }
 ];
 
 // Select the container where the images will be added
