@@ -1,6 +1,6 @@
 // Array of 7 animals with name, image path, sound path, and number key
 const animals = [
-  { name: "lion", img: "assets/images/LION.png", sound: "assets/sounds/lion.wav", key: "1" },
+  { name: "LION", img: "assets/images/LION.png", sound: "assets/sounds/lion.wav", key: "1" },
   { name: "monkey", img: "assets/images/monkey.png", sound: "assets/sounds/monkey.wav", key: "2" },
   { name: "elephant", img: "assets/images/elephant.png", sound: "assets/sounds/elephant.mp3", key: "3" },
   { name: "frog", img: "assets/images/frog.png", sound: "assets/sounds/frog.mp3", key: "4" },
